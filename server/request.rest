@@ -1,0 +1,23 @@
+POST http://localhost:3001/auth/login
+content-type: application/json
+
+{
+    "username":"mem00",
+    "password":"mem00"
+}  
+
+###
+
+POST http://localhost:3001/auth/register
+content-type: application/json
+
+{
+    "username":"mem00",
+    "password":"mem00"
+}  
+
+###
+
+GET http://localhost:3001/myExercises/savedExercises/6440568e81259d90dc8f1b6e
+  
+###
